@@ -17,11 +17,11 @@ public:
         disponible = true;
     }
 
-    Libro(string t, string a, string i, bool d = true) {
-        titulo = t;
-        autor = a;
-        isbn = i;
-        disponible = d;
+    Libro(string titulo, string autor, string isbn, bool disponible = true) {
+        this->titulo = titulo;
+        this->autor = autor;
+        this->isbn = isbn;
+        this->disponible = disponible;
     }
 
     bool prestar() {

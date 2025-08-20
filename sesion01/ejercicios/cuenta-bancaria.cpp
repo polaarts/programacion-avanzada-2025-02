@@ -16,10 +16,10 @@ public:
         saldo = 0.0;
     }
 
-    CuentaBancaria(string num, string tit, double saldoInicial) {
-        numero = num;
-        titular = tit;
-        saldo = 0.0; // TODO: validar saldoInicial >= 0 y asignar
+    CuentaBancaria(string numero, string titular, double saldo) {
+        this->numero = numero;
+        this->titular = titular;
+        this->saldo = 0.0;
     }
 
     // Métodos
